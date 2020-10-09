@@ -1,0 +1,93 @@
+
+
+#FZU{
+    width:90%;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+    
+}
+ul{
+    width:100%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 0 20px 0;
+    overflow: hidden;
+    box-shadow: 0px 7px 7px -7px #5E5E5E;
+}
+#head1{
+    display:inline;
+    float:left;
+    width: 25%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#lie{
+    width: 70%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lie1{
+    height: 100%;
+    display: inline;
+    font-size: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    float: right;
+    font-size:19px;
+    text-decoration: none;
+    /*color: black;*/
+}
+/*???????*/
+a:link{
+    text-decoration:none;
+}
+a:hover {
+    border: 20px,20px;
+    text-decoration: none;
+}
+a:visited{
+    color:black;
+}
+
+#content{
+    width: 80%;
+    height: auto;
+    margin: 150px auto 100px;
+}
+form{
+    text-align: center;
+}
+.inf{
+    margin: 20px 20px;
+    padding:10px 35px;
+    border-radius:15px;
+}
+#loginbutton{
+    padding: 10px 40px;
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius:15px;
+}
+
+#bottom{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+#bottom img{
+    width: 100%;
+    height: auto;
+}
+
+

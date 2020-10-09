@@ -1,0 +1,111 @@
+
+#FZU{
+    width:90%;
+    height: auto;
+    overflow: hidden;
+}
+ul{
+    width:100%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+#head1{
+    display:inline;
+    float:left;
+    width: 25%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#lie{
+    width: 70%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lie1{
+    height: 100%;
+    display: inline;
+    font-size: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    float: right;
+    font-size:19px;
+    text-decoration: none;
+    /*color: black;*/
+}
+/*???????*/
+a:link{
+    text-decoration:none
+}
+a:hover {
+    border: 20px,20px;
+    text-decoration: none;
+}
+a:visited{
+    color:black
+}
+
+#content{
+    width: 90%;
+    height: auto;
+    margin:100px auto 0;
+    overflow: hidden
+}
+#imge{
+    width: 90%;
+    height: auto;
+    padding: 50px 50px 50px ;
+    margin:0 50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#imge img{
+    width:55%;
+    height: auto;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+#imge img:hover{
+    transform: scale(1.4);
+}
+#title{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+#title img{
+    width: 60%;
+    height: auto;
+    margin:0 auto;
+    overflow: hidden;
+}
+/*板底*/
+#bottom{
+    width: 100%;
+    height: auto;
+    margin:100px auto 50px;
+    overflow: hidden;
+    background-color: #585858;
+}
+
+#bottom div{
+    width: 28%;
+    height: fit-content;
+    float: right;
+}
+#bottom div p{
+    color: white;
+}
+

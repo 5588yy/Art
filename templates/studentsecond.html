@@ -1,0 +1,216 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生优秀作品</title>
+    <link rel="stylesheet" href="{% static "css/studentsecond.css" %}" type="text/css" >
+    <style>
+        /*字体*/
+        @font-face{
+            font-family: Fangdeng;
+            src: url("{% static "字体/方正细等线_GBK.ttf" %}");
+        }
+        @font-face{
+            font-family: ADsong;
+            src: url("{% static "字体/AdobeSongStd-Light.otf" %}");
+        }
+        body{
+            font-family: 'ADsong';
+        }
+        #lie{
+            font-family: 'Fangdeng';
+        }
+        #bottom{
+            font-family: 'Fangdeng';
+        }
+    </style>
+
+</head>
+<body>
+    <div di="FZU">
+        <ul>
+            <!--标题-->
+            <a href="">
+                <li id="head1">FZU · AUL Studio</li>
+            </a>
+            <!--列表-->
+            <div id="lie">
+                <li class="lie1" id="login" color="red"><a href="localhost:8000/login">登录</a></li>
+                <li class="lie1"><a href="">考试历年卷</a></li>
+                <li class="lie1"><a href="">留言板</a></li>
+                <li class="lie1"><a href="">出图素材</a></li>
+                <li class="lie1"><a href="">摄影作品</a></li>
+                <li class="lie1"><a href="localhost:8000/academyfirst">研究成果</a></li>
+                <li class="lie1" ><a href="localhost:8000/studentsecond">学生优秀作品</a></li>
+            </div>
+        </ul>
+    </div>
+    <!--优秀学生作业-->
+    <div id="title">
+        <img src="{% static "img/studentsecond/title/title1.png" %}">
+    </div>
+    <!--2015级毕业设计展-->
+    <div class="first">
+        <div >
+            <img src="{% static "img/studentsecond/title/2015.png" %}" class="title1">
+            <a href="" class="jianzhu" >
+                <p>
+                    建筑
+                </p>
+                <img src="{% static "img/studentsecond/img/2015建筑.jpg" %}" class="img">
+            </a>
+            <a href="" class="chengxiang">
+                <p>
+                    城乡规划
+                </p>
+                <img src="{% static "img/studentsecond/img/2015城乡规划.jpg" %}" class="img">
+            </a>
+            <a href="" class="yuanlin">
+                <p>
+                    园林
+                </p>
+                <img src="{% static "img/studentsecond/img/2015园林.jpg" %}" class="img">
+            </a>
+            
+        </div>
+    </div>
+    <!--2016级设计-->
+    <div class="first">
+        <div >
+            <img src="{% static "img/studentsecond/title/2016.png" %}" class="title1">
+            <a href="" class="jianzhu" >
+                <p>
+                    建筑
+                </p>
+                <img src="{% static "img/studentsecond/img/2016建筑.jpg" %}" class="img">
+            </a>
+            <a href="" class="chengxiang">
+                <p>
+                    城乡规划
+                </p>
+                <img src="{% static "img/studentsecond/img/2016城乡规划.jpg" %}" class="img">
+            </a>
+            <a href="" class="yuanlin">
+                <p>
+                    园林
+                </p>
+                <img src="{% static "img/studentsecond/img/2016园林.jpg" %}" class="img">
+            </a>
+            
+        </div>
+    </div>
+    <!--2017级设计-->
+    <div class="first">
+        <div >
+            <img src="{% static "img/studentsecond/title/2017.png" %}" class="title1">
+            <a href="" class="jianzhu" >
+                <p>
+                    建筑
+                </p>
+                <img src="{% static "img/studentsecond/img/2017建筑.jpg" %}" class="img">
+            </a>
+            <a href="" class="chengxiang">
+                <p>
+                    城乡规划
+                </p>
+                <img src="{% static "img/studentsecond/img/2017城乡规划.jpg" %}" class="img">
+            </a>
+            <a href="" class="yuanlin">
+                <p>
+                    园林
+                </p>
+                <img src="{% static "img/studentsecond/img/2017园林.jpg" %}" class="img">
+            </a>
+        </div>
+    </div>
+    <!--2018级建筑设计-->
+    <div class="first">
+        <div >
+            <img src="{% static "img/studentsecond/title/2018.png" %}" class="title1">
+            <a href="" class="jianzhu" >
+                <p>
+                    建筑
+                </p>
+                <img src="{% static "img/studentsecond/img/2018建筑.jpg" %}" class="img">
+            </a>
+            <a href="localhost:8000/studentthird" class="chengxiang">
+                <p>
+                    城乡规划
+                </p>
+                <img src="{% static "img/studentsecond/img/2018城乡规划.jpg" %}" class="img">
+            </a>
+            <a href="" class="yuanlin">
+                <p>
+                    园林
+                </p>
+                <img src="{% static "img/studentsecond/img/2018园林.jpg" %}" class="img">
+            </a>
+        </div>
+    </div>
+    <!--2019级建筑设计-->
+    <div class="first">
+        <div >
+            <img src="{% static "img/studentsecond/title/2019.png" %}" class="title1">
+            <a href="" class="jianzhu" >
+                <p>
+                    建筑
+                </p>
+                <img src="{% static "img/studentsecond/img/2019建筑.jpg" %}" class="img">
+            </a>
+            <a href="" class="chengxiang">
+                <p>
+                    城乡规划
+                </p>
+                <img src="{% static "img/studentsecond/img/2019城乡规划.jpg" %}" class="img">
+            </a>
+            <a href="" class="yuanlin">
+                <p>
+                    园林
+                </p>
+                <img src="{% static "img/studentsecond/img/2019园林.jpg" %}" class="img">
+            </a>
+        </div>
+    </div>
+    <!--板底-->
+    <div id="bottom">
+        <div id="code">
+        <p>
+            ZIP CODE
+        </p>
+        <p>
+            邮编
+        </p>
+        <p>
+            <br/>
+            350108
+        </p>
+        </div>
+        <div id="addr">
+            <p>
+                ADRESS
+            </p>
+            <p>
+                地址
+            </p>
+            <p>
+                <br/>
+                福建省福州市福州大学城乌龙江北大道2号
+            </p>
+        </div>
+        <div id="tel">
+            <p>
+                TEL
+            </p>
+            <p>
+                电话
+            </p>
+            <p>
+                <br/>
+                13015789080
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="{% static "css/first.css" %}" type="text/css" >
+    <style>
+        /*字体*/
+        @font-face{
+            font-family: Fangdeng;
+            src: url("{% static "字体/方正细等线_GBK.ttf" %}");
+        }
+        @font-face{
+            font-family: ADsong;
+            src: url("{% static "字体/AdobeSongStd-Light.otf" %}");
+        }
+        body{
+            font-family: 'ADsong';
+        }
+        #lie{
+            font-family: 'Fangdeng';
+        }
+        #bottom{
+            font-family: 'Fangdeng';
+        }
+    </style>
+</head>
+<body>
+    <div di="FZU">
+        <ul>
+            <!--标题-->
+            <a href="">
+                <li id="head1">FZU · AUL Studio</li>
+            </a>
+
+            <!--列表-->
+            <div id="lie">
+                <li class="lie1" id="login" ><a href="localhost:8000/login">登录</a></li>
+                <li class="lie1"><a href="">考试历年卷</a></li>
+                <li class="lie1"><a href="">留言板</a></li>
+                <li class="lie1"><a href="">出图素材</a></li>
+                <li class="lie1"><a href="">摄影作品</a></li>
+                <li class="lie1"><a href="localhost:8000/academyfirst">研究成果</a></li>
+                <li class="lie1" ><a href="localhost:8000/studentsecond">学生优秀作品</a></li>
+            </div>
+        </ul>
+    </div>
+    <!--Welcome-->
+    <a href="https://bj.sheencity.com/venus-project/c1191e39-d856-4245-a4a4-bc8761b2ccf6/0ea6f05b-65ed-4bb3-b27c-cd6f92345f92/tour.html?uuid=logo">
+    <div id="welcome" style="background-image: url('{% static "img/first/imge/Welcome.jpg" %}')" >
+        <div>
+            <img src="{% static "img/first/imge/Welcome.png" %}">
+            <h2>
+                FZU·AUL Studio
+            </h2>
+        </div>
+        
+    </div>
+    </a>
+    <!--first-->
+    <div id="first">
+        <div id="img1">
+            <div class="big">
+                <img src="{% static "img/first/imge/1大.jpg" %}">
+            </div>
+            <div class="small" >
+                <img src="{% static "img/first/imge/1小1.jpg" %}">
+                <img src="{% static "img/first/imge/1小2.jpg" %}">
+                <img src="{% static "img/first/imge/1小3.jpg" %}">
+            </div>
+            
+        </div>
+        <div id="title1">
+            <img src="{% static "img/first/imge/first.png" %}">
+        </div>
+    </div>
+    <!--second-->
+    <div id="second">
+        <img src="{% static "img/first/imge/second.png" %}" id="title2">
+        <img src="{% static "img/first/imge/2.png" %}" id="img2">
+    </div>
+    <!--third-->
+    <div id="third">
+        <div id="img3">
+            <img src="{% static "img/first/imge/31.jpg" %}">
+            <img src="{% static "img/first/imge/32.jpg" %}">
+            <img src="{% static "img/first/imge/33.jpg" %}">
+            <img src="{% static "img/first/imge/34.jpg" %}">
+        </div>
+        <div id="title3">
+            <img src="{% static "img/first/imge/third.png" %}">
+        </div>
+    </div>
+    <!--forth-->
+    <div id="forth">
+        <div id="img4">
+            <img src="{% static "img/first/imge/41.jpg" %}">
+            <img src="{% static "img/first/imge/42.jpg" %}">
+            <img src="{% static "img/first/imge/43.jpg" %}">
+            <img src="{% static "img/first/imge/44.jpg" %}">
+            <img src="{% static "img/first/imge/45.jpg" %}">
+        </div>
+        <div id="title4">
+            <img src="{% static "img/first/imge/forth.png" %}">
+        </div>
+    </div>
+    <!--板底-->
+    <div id="bottom" style="background-image: url('{% static "img/first/imge/版底.jpg" %}')">
+        <div id="blank">
+             
+        </div>
+        <div id="information">
+            <div id="code">
+            <p>
+                ZIP CODE
+            </p>
+            <p>
+                邮编
+            </p>
+            <p>
+                350108
+            </p>
+            </div>
+            <div id="addr">
+                <p>
+                    ADRESS
+                </p>
+                <p>
+                    地址
+                </p>
+                <p>
+                    福建省福州市福州大学城乌龙江北大道2号
+                </p>
+            </div>
+            <div id="tel">
+                <p>
+                    TEL
+                </p>
+                <p>
+                    电话
+                </p>
+                <p>
+                    13015789080
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,251 @@
+
+/**/
+
+#FZU{
+    width:90%;
+    height: auto;
+    overflow: hidden;
+}
+ul{
+    width:100%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+#head1{
+    display:inline;
+    float:left;
+    width: 25%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#lie{
+    width: 70%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lie1{
+    height: 100%;
+    display: inline;
+    font-size: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    float: right;
+    font-size:19px;
+    text-decoration: none;
+    /*color: black;*/
+}
+/*???????*/
+a{
+    color: black;
+}
+a:link{
+    text-decoration:none
+}
+a:hover {
+    border: 20px,20px;
+    text-decoration: none;
+}
+a:visited{
+    color:black
+}
+
+/*<!--Welcome-->*/
+#welcome{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 200px 0;
+    overflow: hidden;
+    background-image:url(../img/first/imge/touban.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:100%;
+    overflow: hidden;
+}
+#welcome div{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+#welcome div img{
+    width: 100%;
+    height: auto;
+}
+#welcome div h2{
+    text-align: center;
+    color: white;
+    padding: 0 0 30px ;
+    margin:0 0;
+}
+/*<!--first-->*/
+#first{
+    width: 90%;
+    height: auto;
+    margin: 150px auto;
+    overflow: hidden;
+}
+#first div{
+    float: right;
+}
+#img1 div{
+    float: right;
+}
+#title1{
+    width: 15%;
+    height: auto;
+}
+#title1 img{
+    width: 100%;
+    height: auto;
+}
+#img1{
+    width: 84%;
+    height: auto;
+    overflow: hidden;
+}
+.big{
+    width: 71%;
+    height: auto;
+}
+.small{
+    width: 29%;
+    height: auto;
+}
+.big img,.small img{
+    width: 100%;
+    height: auto;
+}
+.small img{
+    padding: 2px 0;
+}
+/*<!--second-->*/
+#second{
+    width: 90%;
+    height: auto;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: rgba(129, 127, 127, 0.151);
+    overflow:hidden;
+}
+#second img{
+    float: right;
+}
+#img2{
+    width: 80%;
+    height: auto;
+}
+#title2{
+    width: 14%;
+    height: auto;
+    padding: 20px 0;
+}
+
+/*<!--third-->*/
+#third{
+    width: 90%;
+    height: auto;
+    margin:150px auto;
+}
+#third div{
+    width:100%;
+    height: 200px;
+    overflow: hidden;
+}
+#img3{
+    padding:80px 0 50px 50px;
+}
+#img3 img{
+    width: 23%;
+    height: auto;
+    float: left;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+#img3 img:hover{
+    transform: scale(1.4);
+}
+#title3 img{
+    width: 75%;
+    height: auto;
+    margin-left: 50px;
+}
+/*<!--forth-->*/
+#forth{
+    width: 90%;
+    height: auto;
+    margin:150px auto;
+    padding: 100px 0 0 0;
+    overflow: hidden;
+    background-color: rgba(129, 127, 127, 0.151);
+}
+#img4{
+    width:100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0 5px 60px 65px;
+}
+#img4 img{
+    height: 220px;
+    width: auto;
+    float: left;
+    padding: 50px 0 0 0;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+#img4 img:hover{
+    transform: scale(1.4);
+}
+#title{
+    width: 100%;
+    height: auto;
+}
+#title4 img{
+    width: 75%;
+    height: auto;
+    padding:0 0 10px 50px;
+}
+
+/*板底*/
+#bottom{
+    width: 90%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:url(../img/first/imge/版底.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:100%;
+}
+#blank{
+    width: auto;
+    height: 60%;
+}
+#information{
+    float: bottom;
+    width: 100%;
+    height: fit-content;
+    margin:0 auto;
+    overflow: hidden;
+    background-color: #192b3f;
+}
+#information div{
+    width: 30%;
+    height: fit-content;
+    float:left;
+    margin:0 auto;
+}
+#information div p{
+    color:white;
+    text-align: center;
+}
+

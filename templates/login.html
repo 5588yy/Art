@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="{% static "css/login.css" %}" type="text/css" >
+    <style>
+        /*字体*/
+        @font-face{
+            font-family: Fangdeng;
+            src: url("{% static "字体/方正细等线_GBK.ttf" %}");
+        }
+        @font-face{
+            font-family: ADsong;
+            src: url("{% static "字体/AdobeSongStd-Light.otf" %}");
+        }
+        body{
+            font-family: 'ADsong';
+        }
+        #lie{
+            font-family: 'Fangdeng';
+        }
+        #bottom{
+            font-family: 'Fangdeng';
+        }
+    </style>
+</head>
+<body>
+    <div di="FZU">
+        <ul>
+            <!--标题-->
+            <a href="">
+                <li id="head1">FZU · AUL Studio</li>
+            </a>
+            <!--列表-->
+            <div id="lie">
+                <li class="lie1" id="login" color="red"><a href="login.html">登录</a></li>
+                <li class="lie1"><a href="">考试历年卷</a></li>
+                <li class="lie1"><a href="">留言板</a></li>
+                <li class="lie1"><a href="">出图素材</a></li>
+                <li class="lie1"><a href="">摄影作品</a></li>
+                <li class="lie1"><a href="academyfirst.html">研究成果</a></li>
+                <li class="lie1" ><a href="studentsecond.html">学生优秀作品</a></li>
+            </div>
+        </ul>
+    </div>
+    <!--TITLE-->
+    </div>
+    <div id="content">
+        <form action="">
+            账号:
+            <input type="text" name="firstname" value="" class="inf">
+            <br>
+            密码:
+            <input type="password" name="password" value="" class="inf">
+            <br><br>
+            <input type="submit" value="登录" id="loginbutton">
+        </form> 
+    </div>
+    <div id="bottom">
+        <img src="{% static "img/login/img/last.png" %}">
+    </div>
+</body>
+</html>
