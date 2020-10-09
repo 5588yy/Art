@@ -19,11 +19,12 @@ from django.urls import path
 from blog import views
 
 urlpatterns = {
-    path('', views.first),
+    #path('', views.first),
     path('academyfirst/', views.academyfirst),
     path('exhibition/', views.exhibition),
     path('login/', views.login),
     path('studentforth/', views.studentforth),
     path('studentsecond/', views.studentsecond),
     path('studentthird/', views.studentthird),
+    path('', views.vedio1),
 }

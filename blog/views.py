@@ -21,3 +21,6 @@ def studentsecond(request):
 
 def studentthird(request):
     return render(request, 'studentthird.html')
+
+def vedio1(request):
+    return render(request, 'vedio1.html')
