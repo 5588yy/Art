@@ -54,7 +54,9 @@ a:hover {
 a:visited{
     color:black
 }
-
+a:-webkit-any-link{
+    color: black;
+}
 /*优秀学生作业*/
 #title{
     width: 90%;
@@ -86,6 +88,7 @@ a:visited{
     float: left;
 }
 a p{
+    color: black;
     width: 100%;
     height: auto;
     text-align: center;
@@ -109,6 +112,9 @@ a p{
 }
 .jianzhu :hover{
 
+}
+a:-webkit-any-link{
+    color: black;
 }
 /*2016级设计*/
 /*2017级设计*/

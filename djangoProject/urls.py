@@ -18,13 +18,13 @@ from django.urls import path
 
 from blog import views
 
-urlpatterns = {
-    path('', views.first),
-    path('academyfirst/', views.academyfirst),
-    path('exhibition/', views.exhibition),
-    path('login/', views.login),
-    path('studentforth/', views.studentforth),
-    path('studentsecond/', views.studentsecond),
-    path('studentthird/', views.studentthird),
-    path('video/', views.video),
-}
+urlpatterns = [
+    path('', views.first,name="first"),
+    path('academyfirst/', views.academyfirst,name="academyfirst"),
+    path('exhibition/', views.exhibition,name="exhibition"),
+    path('login/', views.login,name="login"),
+    path('studentforth/', views.studentforth,name="studentforth"),
+    path('studentsecond/', views.studentsecond,name="studentsecond"),
+    path('studentthird/', views.studentthird,name="studentthird"),
+    path('video/', views.video,name="video"),
+]

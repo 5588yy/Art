@@ -53,6 +53,9 @@ a:hover {
 a:visited{
     color:black
 }
+a:-webkit-any-link{
+    color: black;
+}
 
 #content{
     width: 90%;

@@ -31,18 +31,18 @@
     <div di="FZU">
         <ul>
             <!--标题-->
-            <a href="">
+            <a href="frist">
                 <li id="head1">FZU · AUL Studio</li>
             </a>
             <!--列表-->
             <div id="lie">
-                <li class="lie1" id="login" color="red"><a href="localhost:8000/login">登录</a></li>
+                <li class="lie1" id="login" ><a href="{% url 'login' %}">登录</a></li>
                 <li class="lie1"><a href="">考试历年卷</a></li>
                 <li class="lie1"><a href="">留言板</a></li>
                 <li class="lie1"><a href="">出图素材</a></li>
                 <li class="lie1"><a href="">摄影作品</a></li>
-                <li class="lie1"><a href="localhost:8000/academyfirst">研究成果</a></li>
-                <li class="lie1" ><a href="localhost:8000/studentsecond">学生优秀作品</a></li>
+                <li class="lie1"><a href="{% url 'academyfirst' %}">研究成果</a></li>
+                <li class="lie1" ><a href="{% url 'studentsecond' %}">学生优秀作品</a></li>
             </div>
         </ul>
     </div>

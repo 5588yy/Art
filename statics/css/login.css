@@ -1,7 +1,7 @@
 
 
 #FZU{
-    width:90%;
+    width:60%;
     margin: 0 auto;
     height: auto;
     overflow: hidden;
@@ -21,11 +21,11 @@ ul{
 #head1{
     display:inline;
     float:left;
-    width: 25%;
+    width: 30%;
     height: fit-content;
     margin-left: auto;
     margin-right: auto;
-    text-align:left;
+    text-align:center;
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -57,6 +57,9 @@ a:hover {
 }
 a:visited{
     color:black;
+}
+a:-webkit-any-link{
+    color: black;
 }
 
 #content{
