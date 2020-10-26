@@ -49,9 +49,9 @@
     <!--TITLE-->
     </div>
     <div id="content">
-        <form action="">
+        <form action="{% url 'logintest' %}" method="post">
             账号:
-            <input type="text" name="firstname" value="" class="inf">
+            <input type="text" name="username" value="" class="inf">
             <br>
             密码:
             <input type="password" name="password" value="" class="inf">

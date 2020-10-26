@@ -27,4 +27,5 @@ urlpatterns = [
     path('studentsecond/', views.studentsecond,name="studentsecond"),
     path('studentthird/', views.studentthird,name="studentthird"),
     path('video/', views.video,name="video"),
+    path('logintest$', views.logintest,name="logintest"),
 ]
