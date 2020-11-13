@@ -36,28 +36,51 @@
             </a>
             <!--列表-->
             <div id="lie">
-                <li class="lie1" id="login" ><a href="{% url 'login' %}">登录</a></li>
-                <li class="lie1"><a href="">考试历年卷</a></li>
+                <li class="lie1" id="login" ><a href="{% url 'login' %}" >登录</a></li>
+                <li class="lie1"><a href="{% url 'examination' %}">考试历年卷</a></li>
                 <li class="lie1"><a href="">留言板</a></li>
-                <li class="lie1"><a href="">出图素材</a></li>
-                <li class="lie1"><a href="">摄影作品</a></li>
+                <li class="lie1"><a href="{% url 'material' %}">出图素材</a></li>
+                <li class="lie1"><a href="{% url 'exhibition' %}">摄影作品</a></li>
                 <li class="lie1"><a href="{% url 'academyfirst' %}">研究成果</a></li>
                 <li class="lie1" ><a href="{% url 'studentsecond' %}">学生优秀作品</a></li>
             </div>
         </ul>
     </div>
+    <div class="title">
+        <img src="{% static 'img/exhibition/title.png' %}">
+    </div>
+
     <div id="content">
-        <div id="title">
-            <img src="{% static "img/exhibition/img/46.png" %}">
-        </div>
         <div id="imge">
-            <img src="{% static "img/exhibition/img/41.jpg" %}">
-            <img src="{% static "img/exhibition/img/42.jpg" %}">
-            <img src="{% static "img/exhibition/img/43.jpg" %}">
-            <img src="{% static "img/exhibition/img/44.jpg" %}">
-            <img src="{% static "img/exhibition/img/45.jpg" %}">
+            <img src="{% static "img/exhibition/12.jpg" %}">
+            <img src="{% static "img/exhibition/13.jpg" %}">
+            <img src="{% static "img/exhibition/14.jpg" %}">
+            <img src="{% static "img/exhibition/11.jpg" %}">
         </div>
-        
+        <div class="ltitle">《白日梦蓝》</div>
+    </div>
+    <div id="content">
+
+        <div id="imge">
+            <img src="{% static "img/exhibition/23.jpg" %}">
+            <img src="{% static "img/exhibition/24.jpg" %}">
+            <img src="{% static "img/exhibition/21.jpg" %}">
+            <img src="{% static "img/exhibition/22.jpg" %}">
+        </div>
+        <div class="ltitle">《梦日樱花》</div>
+    </div>
+    <div id="content">
+
+        <div id="imge">
+            <img src="{% static "img/exhibition/31.jpg" %}">
+            <img src="{% static "img/exhibition/34.jpg" %}">
+            <img src="{% static "img/exhibition/33.jpg" %}">
+            <img src="{% static "img/exhibition/32.jpg" %}">
+        </div>
+        <div class="ltitle">《梦日樱花》</div>
+    </div>
+    <div class="last">
+        正在加载中......
     </div>
     <div id="bottom">
         <div id="code">

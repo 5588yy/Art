@@ -36,11 +36,11 @@
             </a>
             <!--列表-->
             <div id="lie">
-                <li class="lie1" id="login" ><a href="{% url 'login' %}">登录</a></li>
-                <li class="lie1"><a href="">考试历年卷</a></li>
+                <li class="lie1" id="login" ><a href="{% url 'login' %}" >登录</a></li>
+                <li class="lie1"><a href="{% url 'examination' %}">考试历年卷</a></li>
                 <li class="lie1"><a href="">留言板</a></li>
-                <li class="lie1"><a href="">出图素材</a></li>
-                <li class="lie1"><a href="">摄影作品</a></li>
+                <li class="lie1"><a href="{% url 'material' %}">出图素材</a></li>
+                <li class="lie1"><a href="{% url 'exhibition' %}">摄影作品</a></li>
                 <li class="lie1"><a href="{% url 'academyfirst' %}">研究成果</a></li>
                 <li class="lie1" ><a href="{% url 'studentsecond' %}">学生优秀作品</a></li>
             </div>
@@ -85,13 +85,12 @@
         </ul>
     </div>
     <!--U-->
+    <a href="{% url 'xueyuan2' %}">
     <div class="u">
         <div class="title1">
             <img src="{% static "img/academyfirst/title/title1.png" %}">
         </div>
         <div class="img">
-            
-            
             <div class="img3">
                 <img src="{% static "img/academyfirst/img/13.png" %}">
             </div>
@@ -103,7 +102,9 @@
             </div>
         </div>
     </div>
+    </a>
     <!--A-->
+    <a href="">
     <div class="u">
         <div class="title1 mor">
             <img src="{% static "img/academyfirst/title/title2.png" %}">
@@ -120,7 +121,9 @@
             </div>
         </div>
     </div>
+    </a>
     <!--L-->
+    <a href="">
     <div class="u">
         <div class="title1 mor" >
             <img src="{% static "img/academyfirst/title/title3.png" %}">
@@ -137,6 +140,7 @@
             </div>
         </div>
     </div>
+    </a>
     <!--LINK-->
     <div class="linke">
         <img src="{% static "img/academyfirst/title/link1.png" %}" alt="">

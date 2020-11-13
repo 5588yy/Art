@@ -1,0 +1,138 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>出图素材</title>
+    <link rel="stylesheet" href="{% static "css/material.css" %}" type="text/css" >
+    <style>
+        /*字体*/
+        @font-face{
+            font-family: Fangdeng;
+            src: url("{% static "字体/方正细等线_GBK.ttf" %}");
+        }
+        @font-face{
+            font-family: ADsong;
+            src: url("{% static "字体/AdobeSongStd-Light.otf" %}");
+        }
+        body{
+            font-family: 'ADsong';
+        }
+        #lie{
+            font-family: 'Fangdeng';
+        }
+        #bottom{
+            font-family: 'Fangdeng';
+        }
+    </style>
+</head>
+<body>
+    <div di="FZU">
+        <ul class="ftitle">
+            <!--标题-->
+            <a href="{% url 'first' %}">
+                <li id="head1">FZU · AUL Studio</li>
+            </a>
+            <!--列表-->
+            <div id="lie">
+                <li class="lie1" id="login" ><a href="{% url 'login' %}" >登录</a></li>
+                <li class="lie1"><a href="{% url 'examination' %}">考试历年卷</a></li>
+                <li class="lie1"><a href="">留言板</a></li>
+                <li class="lie1"><a href="{% url 'material' %}">出图素材</a></li>
+                <li class="lie1"><a href="{% url 'exhibition' %}">摄影作品</a></li>
+                <li class="lie1"><a href="{% url 'academyfirst' %}">研究成果</a></li>
+                <li class="lie1" ><a href="{% url 'studentsecond' %}">学生优秀作品</a></li>
+            </div>
+        </ul>
+    </div>
+
+    <div class="title" style="background-image: url('{% static "img/material/title.png" %}')">
+        <input type="text" name="search"  placeholder="输入关键字搜索">
+        <ul class="lie2">
+            <li class="lie3 ltitle">素材类型</li>
+            <a href=""><li class="lie3">全部</li></a>
+            <a href=""><li class="lie3">人车</li></a>
+            <a href=""><li class="lie3">各种树</li></a>
+            <a href=""><li class="lie3">景观小品</li></a>
+            <a href=""><li class="lie3">材质贴图</li></a>
+            <a href=""><li class="lie3">色卡</li></a>
+        </ul>
+        <ul class="lie2">
+            <li class="lie3 ltitle">图纸类型</li>
+            <a href=""><li class="lie3">全部</li></a>
+            <a href=""><li class="lie3">总平</li></a>
+            <a href=""><li class="lie3">立面</li></a>
+            <a href=""><li class="lie3">剖面</li></a>
+            <a href=""><li class="lie3">爆炸图</li></a>
+            <a href=""><li class="lie3">轴测图</li></a>
+            <a href=""><li class="lie3">分析图</li></a>
+            <a href=""><li class="lie3">真实渲染</li></a>
+        </ul>
+        <ul class="lie2">
+            <li class="lie3 ltitle">图纸风格</li>
+            <a href=""><li class="lie3">中国风</li></a>
+            <a href=""><li class="lie3">小清新</li></a>
+            <a href=""><li class="lie3">插画风</li></a>
+            <a href=""><li class="lie3">拼贴风</li></a>
+            <a href=""><li class="lie3">手绘图</li></a>
+            <a href=""><li class="lie3">其他风格</li></a>
+        </ul>
+    </div>
+    <div class="sucai">
+        <img src={% static 'img/material/11.jpg' %}>
+        <img src={% static 'img/material/12.jpg' %}>
+        <img src={% static 'img/material/13.jpg' %}>
+        <img src={% static 'img/material/14.jpg' %}>
+        <img src={% static 'img/material/15.jpg' %}>
+        <img src={% static 'img/material/16.jpg' %}>
+        <img src={% static 'img/material/17.jpg' %}>
+        <img src={% static 'img/material/18.jpg' %}>
+        <img src={% static 'img/material/19.jpg' %}>
+        <img src={% static 'img/material/110.jpg' %}>
+        <img src={% static 'img/material/111.jpg' %}>
+        <img src={% static 'img/material/112.jpg' %}>
+    </div>
+    <div class="last">
+        正在加载中......
+    </div>
+    <div id="bottom">
+        <div id="code">
+        <p>
+            ZIP CODE
+        </p>
+        <p>
+            邮编
+        </p>
+        <p>
+            <br/>
+            350108
+        </p>
+        </div>
+        <div id="addr">
+            <p>
+                ADRESS
+            </p>
+            <p>
+                地址
+            </p>
+            <p>
+                <br/>
+                福建省福州市福州大学城乌龙江北大道2号
+            </p>
+        </div>
+        <div id="tel">
+            <p>
+                TEL
+            </p>
+            <p>
+                电话
+            </p>
+            <p>
+                <br/>
+                13015789080
+            </p>
+        </div>
+    </div>
+</body>
+</html>

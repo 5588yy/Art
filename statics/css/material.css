@@ -1,0 +1,145 @@
+#FZU{
+    width:100%;
+    height: auto;
+    overflow: hidden;
+}
+.ftitle{
+    width:100%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+#head1{
+    display:inline;
+    float:left;
+    width: 15%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#lie{
+    width: 80%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+.lie1{
+    height: 100%;
+    display: inline;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    float: right;
+    font-size:19px;
+    text-decoration: none;
+    /*color: black;*/
+}
+/*???????*/
+a{
+    color: black;
+}
+a:link{
+    text-decoration:none
+}
+a:hover {
+    border: 20px,20px;
+    text-decoration: none;
+}
+a:visited{
+    color:black
+}
+a:-webkit-any-link{
+    color: black;
+}
+#login a:-webkit-any-link{
+    color: red;
+}
+
+.title{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto 100px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center ;
+}
+.title input{
+    margin: 90px 190px 20px;
+    color: black;
+    text-align: center;
+    background-color: rgb(236,236,236);
+    border: none;
+    border-radius:15px;
+    padding: 10px 450px;
+}
+.ltitle{
+    border-radius:15px;
+    color: aliceblue;
+    background-color: red;
+}
+.lie2{
+    width: 100%;
+    height: fit-content;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: auto;
+    float: left;
+}
+.lie3{
+    width: 6%;
+    height: auto;
+    display: inline;
+    font-size: 19px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 10px;
+    float: left;
+    text-decoration: none;
+    /*color: black;*/
+}
+.sucai{
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.sucai img{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 20px 10px;
+}
+.last{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 100px auto;
+    font-size: 30px;
+}
+/*板底*/
+#bottom{
+    width: 100%;
+    height: auto;
+    margin:100px auto 50px;
+    overflow: hidden;
+    background-color: #585858;
+}
+
+#bottom div{
+    width: 28%;
+    height: fit-content;
+    float: right;
+}
+#bottom div p{
+    color: white;
+}
+

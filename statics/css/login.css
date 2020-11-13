@@ -1,11 +1,9 @@
-
-
 #FZU{
-    width:60%;
+    width:100%;
     margin: 0 auto;
     height: auto;
     overflow: hidden;
-    
+
 }
 ul{
     width:100%;
@@ -21,7 +19,7 @@ ul{
 #head1{
     display:inline;
     float:left;
-    width: 30%;
+    width: 20%;
     height: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -31,17 +29,18 @@ ul{
     font-size: 20px;
 }
 #lie{
-    width: 70%;
+    width: 75%;
     height: fit-content;
     margin-left: auto;
     margin-right: auto;
+    float: left;
 }
 .lie1{
     height: 100%;
     display: inline;
     font-size: 15px;
-    padding-left: 7px;
-    padding-right: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
     float: right;
     font-size:19px;
     text-decoration: none;
@@ -52,7 +51,7 @@ a:link{
     text-decoration:none;
 }
 a:hover {
-    border: 20px,20px;
+    border: 20px;
     text-decoration: none;
 }
 a:visited{
@@ -61,28 +60,43 @@ a:visited{
 a:-webkit-any-link{
     color: black;
 }
-
+#login a:-webkit-any-link{
+    color: red;
+}
 #content{
     width: 80%;
     height: auto;
-    margin: 150px auto 100px;
+    margin: 90px auto 15px;
+}
+.miss{
+    width: 65%;
+    height: auto;
+    text-align: right;
+}
+#content a{
+    width: 100%;
+    height: auto;
 }
 form{
     text-align: center;
 }
 .inf{
     margin: 20px 20px;
-    padding:10px 35px;
+    padding:10px 100px;
     border-radius:15px;
+    color: rgb(236,236,236);
 }
 #loginbutton{
-    padding: 10px 40px;
-    background-color:red;
+    padding: 10px 50px;
+    background-color:rgb(195,13,36);
     color: white;
     border: none;
     border-radius:15px;
 }
-
+.tip{
+    text-align: center;
+    color: rgb(176,176,176);
+}
 #bottom{
     width: 100%;
     height: auto;

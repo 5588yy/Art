@@ -1,0 +1,168 @@
+
+/**/
+
+#FZU{
+    width:100%;
+    height: auto;
+    overflow: hidden;
+}
+ul{
+    width:100%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+#head1{
+    display:inline;
+    float:left;
+    width: 15%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#lie{
+    width: 80%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+.lie1{
+    height: 100%;
+    display: inline;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    float: right;
+    font-size:19px;
+    text-decoration: none;
+    /*color: black;*/
+}
+/*???????*/
+a{
+    color: black;
+}
+a:link{
+    text-decoration:none
+}
+a:hover {
+    border: 20px,20px;
+    text-decoration: none;
+}
+a:visited{
+    color:black
+}
+a:-webkit-any-link{
+    color: black;
+}
+#login a:-webkit-any-link{
+    color: red;
+}
+/*<!--Title-->*/
+.write,.ati{
+    font-size: larger;
+}
+.title{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    padding: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    overflow: hidden;
+}
+.title img{
+    width: 100%;
+    height: auto;
+    margin: auto auto;
+
+}
+/*<!--first-->*/
+.first{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.first h1{
+    text-align: left;
+    margin: 0 auto;
+}
+.write{
+    text-indent:2em;
+    text-align: left;
+}
+.first img{
+    width: 100%;
+    height: auto;
+    margin: 30px 0 100px;
+}
+/*<!--second-->*/
+.second{
+    text-align: center;
+}
+.second img{
+    width: 60%;
+    height: auto;
+    margin: auto auto;
+    text-align: center;
+    margin: 30px 0 100px;
+}
+/*<!--third-->*/
+.third img{
+    margin: 30px 30px;
+}
+.third .more{
+    margin: 0 0 100px;
+}
+/*<!--forth-->*/
+.forth{
+    margin-bottom: 200px;
+}
+.forth img{
+    margin-bottom: 3px;
+}
+.forth .ati{
+    width: 100%;
+    height:auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.ati .ltitle{
+    width: 25%;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin: auto auto;
+    font-size: 14px;
+}
+/*<!--last-->*/
+.last{
+    margin-bottom: 100px;
+}
+/*板底*/
+#bottom{
+    width: 100%;
+    height: auto;
+    margin:100px auto 50px;
+    overflow: hidden;
+    background-color: #585858;
+}
+
+#bottom div{
+    width: 28%;
+    height: fit-content;
+    float: right;
+}
+#bottom div p{
+    color: white;
+}
+

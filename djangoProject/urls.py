@@ -19,7 +19,11 @@ from django.urls import path
 from blog import views
 
 urlpatterns = [
-    path('', views.first,name="first"),
+    path('', views.first, name="first"),
+    path('material/', views.material, name="material"),
+    path('xueyuan2/', views.xueyuan2,name="xueyuan2"),
+    path('examination/', views.examination,name="examination"),
+    path('first/', views.first,name="first"),
     path('academyfirst/', views.academyfirst,name="academyfirst"),
     path('exhibition/', views.exhibition,name="exhibition"),
     path('login/', views.login,name="login"),

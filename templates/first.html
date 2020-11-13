@@ -37,30 +37,33 @@
 
             <!--列表-->
             <div id="lie">
-                <li class="lie1" id="login" ><a href="{% url 'login' %}">登录</a></li>
-                <li class="lie1"><a href="">考试历年卷</a></li>
+                <li class="lie1" id="login" ><a href="{% url 'login' %}" >登录</a></li>
+                <li class="lie1"><a href="{% url 'examination' %}">考试历年卷</a></li>
                 <li class="lie1"><a href="">留言板</a></li>
-                <li class="lie1"><a href="">出图素材</a></li>
-                <li class="lie1"><a href="">摄影作品</a></li>
+                <li class="lie1"><a href="{% url 'material' %}">出图素材</a></li>
+                <li class="lie1"><a href="{% url 'exhibition' %}">摄影作品</a></li>
                 <li class="lie1"><a href="{% url 'academyfirst' %}">研究成果</a></li>
                 <li class="lie1" ><a href="{% url 'studentsecond' %}">学生优秀作品</a></li>
             </div>
         </ul>
     </div>
     <!--Welcome-->
-    <a href="https://bj.sheencity.com/venus-project/c1191e39-d856-4245-a4a4-bc8761b2ccf6/0ea6f05b-65ed-4bb3-b27c-cd6f92345f92/tour.html?uuid=logo">
     <div id="welcome" style="background-image: url('{% static "img/first/imge/Welcome.jpg" %}')" >
         <div>
+            <a title="点击查看全景" href="https://bj.sheencity.com/venus-project/c1191e39-d856-4245-a4a4-bc8761b2ccf6/0ea6f05b-65ed-4bb3-b27c-cd6f92345f92/tour.html?uuid=logo">
             <img src="{% static "img/first/imge/Welcome.png" %}">
-            <h2>
+             </a>
+            <a href="{% url 'video' %}" title="点击查看视频">
+                <h2>
                 FZU·AUL Studio
             </h2>
+            </a>
+
         </div>
-        
     </div>
-    </a>
+
     <!--first-->
-    <a href="{% url 'video' %}">
+    <a href="{% url 'studentforth' %}">
     <div id="first">
         <div id="img1">
             <div class="big">
@@ -71,7 +74,6 @@
                 <img src="{% static "img/first/imge/1小2.jpg" %}">
                 <img src="{% static "img/first/imge/1小3.jpg" %}">
             </div>
-            
         </div>
         <div id="title1">
             <img src="{% static "img/first/imge/first.png" %}">
@@ -79,12 +81,16 @@
     </div>
     </a>
     <!--second-->
-    <div id="second">
+    <a href="{% url 'xueyuan2' %}">
+        <div id="second">
         <img src="{% static "img/first/imge/second.png" %}" id="title2">
         <img src="{% static "img/first/imge/2.png" %}" id="img2">
-    </div>
+        </div>
+    </a>
+
     <!--third-->
-    <div id="third">
+    <a href="{% url 'exhibition' %}">
+        <div id="third">
         <div id="img3">
             <img src="{% static "img/first/imge/31.jpg" %}">
             <img src="{% static "img/first/imge/32.jpg" %}">
@@ -94,9 +100,12 @@
         <div id="title3">
             <img src="{% static "img/first/imge/third.png" %}">
         </div>
-    </div>
+        </div>
+    </a>
+
     <!--forth-->
-    <div id="forth">
+    <a href="">
+        <div id="forth">
         <div id="img4">
             <img src="{% static "img/first/imge/41.jpg" %}">
             <img src="{% static "img/first/imge/42.jpg" %}">
@@ -108,6 +117,8 @@
             <img src="{% static "img/first/imge/forth.png" %}">
         </div>
     </div>
+    </a>
+
     <!--板底-->
     <div id="bottom" style="background-image: url('{% static "img/first/imge/版底.jpg" %}')">
         <div id="blank">

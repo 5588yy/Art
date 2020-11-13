@@ -1,0 +1,153 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新城市建设对历史文物保护建筑及标志性老建筑的影响现状调查</title>
+    <link rel="stylesheet" href="{% static "css/xueyuan2.css" %}" type="text/css" >
+    <style>
+        /*字体*/
+        @font-face{
+            font-family: Fangdeng;
+            src: url("{% static "字体/方正细等线_GBK.ttf" %}");
+        }
+        @font-face{
+            font-family: ADsong;
+            src: url("{% static "字体/AdobeSongStd-Light.otf" %}");
+        }
+        body{
+            font-family: 'ADsong';
+        }
+        #lie{
+            font-family: 'Fangdeng';
+        }
+        #bottom{
+            font-family: 'Fangdeng';
+        }
+    </style>
+</head>
+<body>
+    <div di="FZU">
+        <ul>
+            <!--标题-->
+            <a href="{% url 'first' %}">
+                <li id="head1">FZU · AUL Studio</li>
+            </a>
+
+            <!--列表-->
+            <div id="lie">
+                <li class="lie1" id="login" ><a href="{% url 'login' %}" >登录</a></li>
+                <li class="lie1"><a href="{% url 'examination' %}">考试历年卷</a></li>
+                <li class="lie1"><a href="">留言板</a></li>
+                <li class="lie1"><a href="{% url 'material' %}">出图素材</a></li>
+                <li class="lie1"><a href="{% url 'exhibition' %}">摄影作品</a></li>
+                <li class="lie1"><a href="{% url 'academyfirst' %}">研究成果</a></li>
+                <li class="lie1" ><a href="{% url 'studentsecond' %}">学生优秀作品</a></li>
+            </div>
+        </ul>
+    </div>
+    <!--Title-->
+    <div class="title" style="background-image: url('{% static "img/xueyuan2/bg.jpg" %}')">
+        <img src="{% static 'img/xueyuan2/title.jpg' %}">
+    </div>
+    <!--first-->
+    <div class="first" >
+        <h1>调查背景</h1>
+        <div class="write">
+            作为土生土长的贵阳人，发现十年间不少存在于小时候印象里的建筑，街道现在都不复存在。放假回来一些地方也与以前不同了，人们在怀念过去的同事，也在享受改造新城市带来的遍历。
+        </div>
+        <div class="write">
+            同时这也带来反思，城市在更新迭代的过程中，新城市为老城区到底带来了什么影响？我们是否可以找到更好的方法解决两者之间的矛盾，老城区认为新事物的涌入打扰了原有宁静，而城市经济繁华地带又处于老城区之中。
+        </div>
+        <img src="{% static 'img/xueyuan2/first.png' %}">
+    </div>
+    <!--second-->
+    <div class="second first" >
+        <h1>调查方法与框架</h1>
+        <div class="write">
+           本次调查根据调研区域内各标志性建筑、街道或片区为调查对象，采取问卷调查法、访谈法、实地考察，并结合相关资料的查阅，通过现象分析与数据分析，归纳总结，提出在老城区的改造与建设中新事物更好的融合方式及未来老城区发展建议。
+        </div>
+        <img src="{% static 'img/xueyuan2/second.png' %}">
+    </div>
+    <!--third-->
+    <div class="third first" >
+        <h1>大十字老天桥“甜甜圈”</h1>
+        <div class="write">
+            只要一说甜甜圈，大家一定都会想到大十字环形天桥，大十字甜甜圈每时每刻都在热闹着。环形天桥上商铺密集、商品琳琅满目，多少人在那里买过裤、吃过肠、散过步。
+        </div>
+        <div class="write">
+            在资料调查时找到这样一段令人感动的采访“我们看着她建立起来，如今看着她一步步被拆除，心中肯定不舍，我孙子几岁的时候在这上面玩耍，到现在已经上大学，她承载的不仅是我们的记忆，还有他们许多儿时的记忆。”在大十字拆除现场闲逛的吴老伯告诉记者，从大十字天桥准备拆除到正式提上日程，他一有时间都会来逛逛，昨晚还来到拆除现场，就是为了再看她最后一眼。
+        </div>
+        <div class="write">
+            “甜甜圈”存在儿时余年，已成为标志性建筑。而现在然而仅仅五天已永久消失，我们开玩笑的说甜甜圈被一口口吃掉了。拆除后新建了地下通道，融入商店美食娱乐等，恰逢当时周围道路正在整治使其周边交通、商业、广场、人流等功能相互协调，互不干扰。
+        </div>
+        <img src="{% static 'img/xueyuan2/third.png' %}">
+        <div class="more" style="text-align: center">甜甜圈被一口口吃掉</div>
+    </div>
+    <!--forth-->
+    <div class="forth first" >
+        <h1>调查数据分析</h1>
+        <img src="{% static 'img/xueyuan2/d1.png' %}">
+        <div class="ati">
+            <div class="ltitle">对老城区现状是否满意</div>
+            <div class="ltitle">老城区哪一点最吸引你</div>
+            <div class="ltitle">您在老城区最多的行为活动</div>
+            <div class="ltitle">您对老城区的不满意之处</div>
+        </div>
+
+        <img src="{% static 'img/xueyuan2/d2.png' %}">
+        <div class="ati">
+            <div class="ltitle">您是否会因为记忆中的老建筑被拆除而难过</div>
+            <div class="ltitle">您认为是否需要建立老建筑保护机制?</div>
+            <div class="ltitle thirdl">您认为历史文物建筑保护是谁的责任</div>
+            <div class="ltitle">您是否平时注意文物保护</div>
+        </div>
+
+    </div>
+    <!--last-->
+    <div class="last first" >
+        <h1>展望</h1>
+        <div class="write">历史人文的缺失使得城市特色荡然无存，“疏老城”明确提出了多拆少建、只拆不建的规划思路，使城市历史人文保护成为可能。现正在编制中的贵阳市老城区控制性详细规划正在逐步落实相关历史人文规划要求，历史人文的挖掘创建工作也在继续开展。历史人文的保护和创建是一个长期性的系统工作。</div>
+    </div>
+    <!--bottom-->
+    <div id="bottom">
+        <div id="code">
+        <p>
+            ZIP CODE
+        </p>
+        <p>
+            邮编
+        </p>
+        <p>
+            <br/>
+            350108
+        </p>
+        </div>
+        <div id="addr">
+            <p>
+                ADRESS
+            </p>
+            <p>
+                地址
+            </p>
+            <p>
+                <br/>
+                福建省福州市福州大学城乌龙江北大道2号
+            </p>
+        </div>
+        <div id="tel">
+            <p>
+                TEL
+            </p>
+            <p>
+                电话
+            </p>
+            <p>
+                <br/>
+                13015789080
+            </p>
+        </div>
+    </div>
+</body>
+</html>
