@@ -23,6 +23,7 @@ ul{
     text-decoration: none;
     color: black;
     font-size: 20px;
+    font-weight: bolder;
 }
 #lie{
     width: 80%;
@@ -64,7 +65,7 @@ a:-webkit-any-link{
 }
 /*TITLE*/
 #title{
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
 }
@@ -77,9 +78,13 @@ a:-webkit-any-link{
     border-radius:15px;
     margin: auto 0;
 }
+.bu{
+    background-color: white;
+    margin-left: 100px;
+}
 /*search*/
 .search{
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     overflow:hidden;
@@ -91,7 +96,6 @@ a:-webkit-any-link{
 }
 .search div input{
     width: auto;
-
     height: auto;
     margin: 0 50px;
 }
@@ -99,6 +103,8 @@ a:-webkit-any-link{
     width: 100%;
     height: auto;
     text-align: center;
+    padding-left: 0;
+    margin-top: 30px;
 }
 .searchul li{
     height: 100%;
@@ -113,7 +119,7 @@ a:-webkit-any-link{
 }
 /*U*/
 .u{
-    width: 90%;
+    width: 100%;
     height: auto;
     margin:0 auto;
     overflow: hidden;
@@ -161,7 +167,7 @@ a:-webkit-any-link{
 /*L*/
 /*link*/
 .linke{
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: 50px auto;
     text-align: center;

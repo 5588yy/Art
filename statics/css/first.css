@@ -26,6 +26,7 @@ ul{
     text-decoration: none;
     color: black;
     font-size: 20px;
+    font-weight: bolder;
 }
 #lie{
     width: 80%;
@@ -70,7 +71,7 @@ a:-webkit-any-link{
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: 200px 0;
+    padding: 100px 0;
     overflow: hidden;
     background-image:url(../img/first/imge/touban.jpg);
     background-repeat:no-repeat;
@@ -81,7 +82,7 @@ a:-webkit-any-link{
 #welcome div{
     width: 100%;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.6)
+    background-color: rgba(0, 0, 0, 0.6);
 }
 #welcome div img{
     width: 100%;
@@ -90,7 +91,7 @@ a:-webkit-any-link{
 #welcome div h2{
     text-align: center;
     color: white;
-    padding: 0 0 30px ;
+    padding: 0 0 10px ;
     margin:0 0;
 }
 /*<!--first-->*/

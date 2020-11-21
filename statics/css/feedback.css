@@ -64,48 +64,11 @@ a:-webkit-any-link{
 #login a:-webkit-any-link{
     color: red;
 }
-#content{
-    width: 80%;
-    height: auto;
-    margin: 90px auto 15px;
-}
-.miss{
-    width: 65%;
-    height: auto;
-    text-align: right;
-}
-#content a{
-    width: 100%;
-    height: auto;
-}
-form{
-    text-align: center;
-}
-.inf{
-    margin: 20px 20px;
-    padding:10px 100px;
-    border-radius:15px;
-    color: rgb(236,236,236);
-}
-#loginbutton{
+
+#sbutton{
     padding: 10px 50px;
-    background-color:rgb(195,13,36);
-    color: white;
+    background-color:rgb(236,236,236);
+    color: black;
     border: none;
     border-radius:15px;
 }
-.tip{
-    text-align: center;
-    color: rgb(176,176,176);
-}
-#bottom{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-}
-#bottom img{
-    width: 100%;
-    height: auto;
-}
-
-

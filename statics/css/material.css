@@ -23,6 +23,7 @@
     text-decoration: none;
     color: black;
     font-size: 20px;
+    font-weight: bolder;
 }
 #lie{
     width: 80%;
@@ -71,9 +72,10 @@ a:-webkit-any-link{
     background-repeat: no-repeat;
     background-size: 100%;
     background-position:center ;
+    text-align: center;
 }
 .title input{
-    margin: 90px 190px 20px;
+    margin: 90px auto 20px;
     color: black;
     text-align: center;
     background-color: rgb(236,236,236);

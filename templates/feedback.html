@@ -3,9 +3,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>登录</title>
-    <link rel="stylesheet" href="{% static "css/login.css" %}" type="text/css" >
+    <title>意见反馈</title>
+    <link rel="stylesheet" href="{% static "css/feedback.css" %}" type="text/css" >
     <style>
         /*字体*/
         @font-face{
@@ -38,7 +37,7 @@
             <div id="lie">
                 <li class="lie1" id="login" ><a href="{% url 'login' %}" >登录</a></li>
                 <li class="lie1"><a href="{% url 'examination' %}">考试历年卷</a></li>
-                <li class="lie1"><a href="{% url 'feedback' %}">意见反馈</a></li>
+                <li class="lie1"><a href="">意见反馈</a></li>
                 <li class="lie1"><a href="{% url 'material' %}">出图素材</a></li>
                 <li class="lie1"><a href="{% url 'exhibition' %}">摄影作品</a></li>
                 <li class="lie1"><a href="{% url 'academyfirst' %}">研究成果</a></li>
@@ -46,24 +45,22 @@
             </div>
         </ul>
     </div>
-    <!--TITLE-->
-    </div>
-    <div id="content">
-        <form action="{% url 'logintest' %}" method="post">
-            账号
-            <input type="text" name="username" value="" class="inf">
-            <br>
-            密码
-            <input type="password" name="password" value="" class="inf">
-
-            <div class="miss"><a href="">忘记密码</a></div>
-
-            <input type="submit" value="登录" id="loginbutton">
-            <div class="tip">不登录只能看到各版块的目录部分</div>
-        </form> 
-    </div>
-    <div id="bottom">
-        <img src="{% static "img/login/img/last.png" %}">
-    </div>
+    <form>
+        <textarea class="t1"></textarea>
+        <br><br>
+        <input type="submit" value="确认" class="b1" id="sbutton">
+        <style>
+            form{
+                width: 90%;
+                margin: 0 auto;
+                text-align: center;
+            }
+            .t1{
+                width: 500px;
+                height: 200px;
+                font-size: large;
+            }
+        </style>
+    </form>
 </body>
 </html>

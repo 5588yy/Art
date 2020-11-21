@@ -53,3 +53,7 @@ def xueyuan2(request):
 #@login_required
 def material(request):
     return render(request, 'material.html')
+
+#@login_required
+def feedback(request):
+    return render(request, 'feedback.html')
