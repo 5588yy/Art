@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path
 
 from blog import views
+from djangoProject import settings
 
 urlpatterns = [
     path('', views.first, name="feedback"),
@@ -34,3 +35,10 @@ urlpatterns = [
     path('video/', views.video,name="video"),
     path('logintest$', views.logintest,name="logintest"),
 ]
+
+#django上线部署静态文件需要的配置
+from django.conf.urls.static import static
+from django.conf import settings
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
